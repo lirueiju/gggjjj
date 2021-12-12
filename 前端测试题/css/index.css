@@ -1,0 +1,214 @@
+.w{
+    margin: 0 auto;
+    width: 1140px;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/* 头部 */
+header{
+    height: 100px;
+    background-color: #fff;
+}
+.logo{
+    margin-top: 29px;
+}
+header .r_sidebar ul{
+    margin-top: 29px;
+    height: 40px;
+    line-height: 40px;
+}
+header .r_sidebar ul li{
+    float: left;
+}
+/* 头部结束 */
+/* 主要页面 */
+article{
+    height: 1275px;
+    background-color: #f5f8f9;
+}
+/* 头部导航开始 */
+.top_nav{
+    height: 170px;
+}
+.top_nav .lnav{
+    margin-top: 70px;
+}
+.top_nav .lnav h2{
+    font-size: 30px;
+}
+.top_nav .lnav p{
+    font-size: 15px;
+}
+.top_nav .rnav{
+    margin-top: 100px;
+    margin-right: 49px;
+}
+.top_nav .rnav ul li{
+    float: left;
+    margin-left: 18px;
+    font-size: 13px;
+}
+.top_nav .rnav ul li a:hover{
+    border-bottom: 1px solid #cccfd0;
+    color: black;
+}
+/* 头部导航结束 */
+/* 上展示页开始 */
+.tp_display{
+    height: 290px;
+}
+.tp_display .l_sidebar{
+    height: 290px;
+    width: 560px;
+    background-color: #fff;
+}
+.tp_display .r_sidebar{
+    height: 290px;
+    width: 560px;
+    background-color: #fff;
+}
+.tp_display .r_sidebar p{
+    font-size: 13px;
+}
+.tp_display .r_sidebar li{
+    font-size: 13px;
+}
+.carousel{
+    position: relative;
+    margin: 10px;
+    height: 266px;
+    width: 540px;
+    overflow: hidden;
+}
+.carousel #qhz{
+    position: absolute;
+    top: 126px;
+    z-index: 2;
+}
+.carousel #qhy{
+    position: absolute;
+    top: 126px;
+    left: 517px;
+    z-index: 2;
+}
+#nav .short{
+    height: 10px;
+}
+.carousel #nav{
+    z-index: 999;
+    position: absolute;
+    transform: rotateX(180deg);
+    bottom: 10px;
+    left: 230px;
+}
+#nav a{
+    float: left;
+    margin-right: 5px;
+    width: 8px;
+    height: 15px;
+    background-color: rgb(250, 250, 250);
+}
+.carousel ul{
+    position: absolute;
+    left: 0;
+    width: 3240px;
+    height: 266px;
+}
+.carousel ul li{
+    float: left;
+    width: 540px;
+}
+.tp_display .r_sidebar .top{
+    height: 110px;
+    border-bottom: 1px solid #efeff0;
+}
+.tp_display .r_sidebar .top .lnav{
+    margin: 46px;
+}
+.tp_display .r_sidebar .top .lnav p{
+    font-size: 18px;
+}
+.tp_display .r_sidebar .top .rnav{
+    width: 92px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    margin-top: 39px;
+    margin-right: 50px;
+    border: 2px solid #e9e9ea;
+}
+.tp_display .r_sidebar .bottom{
+    height: 180px;
+    padding-top: 26px;
+    padding-left: 48px;
+}
+.tp_display .r_sidebar .bottom .lf_list{
+    margin-right: 60px;
+}
+.tp_display .r_sidebar .bottom .md_list{
+    margin-right: 198px;
+}
+.green{
+    width: 64px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: -10px;
+    background-color: #5dd054;
+    color: #fff;
+    text-align: center;
+}
+.tp_display .r_sidebar .bottom ul li{
+    margin-bottom: 34px;
+}
+/* 上展示页结束 */
+/* 中展示页开始 */
+.md_display{
+    margin-top: 19px;
+    height: 350px;
+    background-color: #fff;
+}
+/* 中展示页结束 */
+/* 下展示页开始 */
+.bt_display{
+    margin-top: 20px;
+    margin-bottom: 52px;
+    height: 380px;
+}
+.bt_display #lf_list{
+    width: 563px;
+    height: 377px;
+    background-color: #fff;
+}
+.bt_display #rg_list{
+    width: 560px;
+    height: 377px;
+    background-color: #fff;
+}
+/* 下展示页结束 */
+/* 主要页面结束 */
+/* 页脚开始 */
+footer{
+    padding-top: 78px;
+    height: 254px;
+    background-color: #202124;
+}
+.service{
+    height: 100px;
+}
+footer .service ul{
+    float: left;
+    margin-right: 78px;
+}
+footer .service ul li{
+    font-size: 13px;
+    color: #fff;
+}
+.foot{
+    height: 30px;
+    background-color: #1c1d20;
+}
+/* 页脚结束 */
